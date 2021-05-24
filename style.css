@@ -1,0 +1,81 @@
+/* Styling for my header. Wanted to display a banner image of grapes */
+header {
+  background-image: url("images/grapes.jpg");
+  padding: 60px
+}
+/* Heading stylings only differ in size, so the other attribultes are grouped together */
+h1, h2, h3 {
+  text-align: center;
+  color: rgb(131, 85, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  size: 72px;
+/* This is a colorized shadow method for text I looked up. Pretty neat! */
+  text-shadow: -1px 1px 0 rgb(0, 252, 13),
+				  1px 1px 0 darkred,
+				 1px -1px 0 darkred;
+				-1px -1px 0 #000;
+}
+
+h2 {
+  size: 48px;
+}
+
+h3 {
+  size: 24px;
+}
+
+p {
+  text-align: center;
+  size: 18px;
+  font-family: cursive;
+}
+/* Personalized the horizontal line a little bit */
+hr {
+  color:darkred;
+  width: 300px;
+  border: 10px solid;
+}
+
+body {
+  background-color: lightpink;
+}
+/* The link stylings, different colors for the links, visited links, when the cursor's hovering, and while the link is being clicked */
+a:link {
+  color:orangered;
+}
+
+a:visited {
+  color:dodgerblue;
+}
+
+a:hover {
+  color: fuchsia;
+}
+
+a:active {
+  color: yellow;
+}
+/* Styling for the lists */
+ol, ul {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+/* Defining a class to use on the pic of Portland to center it in the browser */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* Going to use the div container to make boxes for certain content, so giving the div a border that matches the hr styling */
+div {
+  border: solid 20px darkred;  
+}
+/* Giving the footer container a peaceful island picture for the background */
+footer {
+  background-image: url("images/island.jpg");
+  padding: 100px;
+}
